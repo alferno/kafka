@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: kafka-1 
-        image: pharosproduction/kafka_k8s:v1
+        image: wurstmeister/kafka
         resources:
           requests:
             memory: "256Mi"
