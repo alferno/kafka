@@ -14,8 +14,6 @@ spec:
       labels:
         name: zookeeper-1
     spec:
-      nodeSelector:
-        nodeType: memory-eu-west
       containers:
         - name: zoo1
           image: digitalwonderland/zookeeper

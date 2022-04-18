@@ -14,8 +14,6 @@ spec:
       labels:
         name: kafka-broker-1
     spec:
-      nodeSelector:
-        serverType: analytics
       containers:
         - name: kafka
           image: wurstmeister/kafka:2.11-2.0.1
