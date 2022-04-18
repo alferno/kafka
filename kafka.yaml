@@ -12,7 +12,7 @@ spec:
   template:
     metadata:
       labels:
-        app: kafka-broker-1
+        name: kafka-broker-1
     spec:
       nodeSelector:
         serverType: analytics
