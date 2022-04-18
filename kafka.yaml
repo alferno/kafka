@@ -12,7 +12,7 @@ spec:
   template:
     spec:
       nodeSelector:
-        servertype: analytics
+        serverType: analytics
       containers:
         - name: kafka
           image: wurstmeister/kafka:2.11-2.0.1
